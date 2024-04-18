@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(26, 25, 25);
+}
+.wrapper {
+  background: #fff;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 14rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.wrapper span:hover {
+  color: red;
+}
